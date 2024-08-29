@@ -1,0 +1,19 @@
+/* rodape.css */
+
+/* Exemplo de estilos para o rodapé */
+#rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #rodape a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #rodape a:hover {
+    text-decoration: underline;
+  }
+  

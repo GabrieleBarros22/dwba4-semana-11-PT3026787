@@ -1,0 +1,106 @@
+/* Estilos para o slideshow */
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+/* Ajusta o tamanho das imagens do slideshow */
+.mySlides img {
+    max-width: 80%;  /* Ajuste este valor para reduzir o tamanho da imagem */
+    height: auto;    /* Mantém a proporção da imagem */
+    margin: auto;    /* Centraliza a imagem no slide */
+}
+
+/* Ajusta o tamanho do vídeo do slideshow */
+.mySlides iframe {
+    max-width: 800px;
+    width: 90%;      /* Ajuste este valor para a largura do vídeo */
+    height: 500px;   /* Ajuste este valor para a altura do vídeo */
+    max-height: 500px;
+    margin: auto;    /* Centraliza o vídeo no slide */
+}
+
+/* Estilos para os botões de navegação */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Posição do botão "next" (próximo) */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Efeito de hover nos botões */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Indicadores de navegação */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fade de transição */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Estilos para conteúdo adicional */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+/* Ajustes gerais */
+
+img {
+    max-width: 100%;
+    height: auto;
+}

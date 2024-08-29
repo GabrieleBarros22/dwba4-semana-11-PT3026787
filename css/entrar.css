@@ -1,0 +1,31 @@
+/* Ajuste da altura das caixas de entrada de texto */
+.form-control {
+  height: 50px; /* Ajuste a altura das caixas de texto */
+  font-size: 16px; /* Ajuste opcional do tamanho da fonte para se adequar à nova altura */
+  padding: 10px; /* Ajuste do preenchimento interno */
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-check {
+  margin-top: 5px; /* Ajusta a posição para ficar mais próximo do campo de senha */
+  text-align: center; /* Centraliza o texto */
+}
+
+.text-esqueci-senha {
+  color: #007bff; /* Cor azul para o texto */
+  text-align: center; /* Centraliza o texto */
+  display: inline-block; /* Garante que a centralização funcione corretamente */
+  margin-top: 0; /* Remove margem superior para alinhar mais próximo do botão de login */
+}
+
+.btn-block {
+  margin-top: 10px; /* Espaço entre o link "Esqueci a senha" e o botão de login */
+  height: 50px; /* Aumenta a altura do botão */
+}
+
+.mb-2 {
+  margin-bottom: 15px; /* Adiciona um pequeno espaço entre o campo de email e o de senha */
+}

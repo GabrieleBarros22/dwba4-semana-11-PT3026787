@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrar - IFSP - Pirituba</title>
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/formularios.css"> <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/entrar.css"> <!-- Novo arquivo CSS -->
+  <script src="js/disabling.js"></script>
+</head>
+<body>
+  
+  <header id="cabecalho">
+    <nav>
+      <object width="100%" height="200px" data="menu.html"></object>
+    </nav>    
+  </header>
+  
+  <main class="container mt-5"> 
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="text-center">
+                <img src="Imagens/ifsp.png" alt="IFSP Logo" class="img-fluid mb-3" style="max-width: 150px;">
+            </div>
+            <h1 class="text-center">Faça login</h1>
+            <form method="POST" class="mt-4">
+                <div class="form-group">
+                    <input type="text" name="usuario" id="entrar-usuario" class="form-control mb-2" placeholder="Seu email" required />
+                    <input type="password" name="senha" id="entrar-senha" class="form-control mb-2" placeholder="Senha" required />
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="lembrar">
+                        <label class="form-check-label" for="lembrar">Lembrar de mim</label>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="#" class="text-esqueci-senha">Esqueci a senha</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+    </div>
+  </main>
+  
+  <footer>     
+      <object width="100%" height="200px" data="rodape.html"></object>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
